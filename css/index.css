@@ -206,15 +206,19 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-    .logo {
-      margin: 10px 60px;
-    }
     nav {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
       text-align: center;
       }
+    .logo {
+      order: -1;
+      margin: 10px 300px 40px 300px;
+    }
+    .title {
+      margin-bottom: 10px;
+    }
     #roundimage {
       display: none;
     }
