@@ -224,7 +224,7 @@ footer {
       margin-right: auto;
     }
     h2, p {
-      margin-left: 10px;
+      margin-left: 20px;
     }
     .aboveimage {
     	display: flex;
@@ -242,5 +242,11 @@ footer {
       display: flex;
     	justify-content: space-between;
       margin: 30px 0px;
+    }
+    #contact-info {
+      margin-left: 0px;
+    }
+    address {
+      margin-left: 20px;
     }
 }
