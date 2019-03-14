@@ -64,7 +64,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* My code begins here:*/
+
 
 
 nav {
@@ -202,4 +203,35 @@ footer {
 
 .p-services {
 	width: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo {
+    margin: 10px 60px;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    }
+  #roundimage {
+    display: none;
+  }
+  #getstarted {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboveimage {
+  	display: flex;
+  	justify-content: space-around;
+  	margin: 30px 30px;
+  }
+  .middle-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%
+  }
 }
