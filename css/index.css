@@ -266,11 +266,16 @@ footer {
       margin-top: 5px;
     }
     nav a {
-      margin: 10px 0px;
+      padding: 20px 0px;
+      border-top: 1px solid black;
+      font-size: 20px;
+    }
+    .nav6 {
+      border-bottom: 1px solid black;
     }
     .logo {
       order: -1;
-      margin: 10px 300px 10px 300px;
+      margin: 10px 300px 20px 300px;
     }
     .title {
       margin-bottom: 10px;
@@ -288,9 +293,13 @@ footer {
     }
     .aboveimage {
     	display: flex;
+      flex-wrap: wrap;
     	justify-content: space-between;
-      margin: 30px 0px;
+      margin: 30px 40px 30px 0px;
       width: 95%;
+    }
+    .features, .about, .services, .product, .vision {
+      margin: 10px;
     }
     .middle-img {
       display: block;
@@ -300,8 +309,9 @@ footer {
     }
     .belowimage {
       display: flex;
+      flex-wrap: wrap;
     	justify-content: space-between;
-      margin: 30px 0px;
+      margin: 30px 40px 30px 0px;
     }
     #contact-info {
       margin-left: 0px;
